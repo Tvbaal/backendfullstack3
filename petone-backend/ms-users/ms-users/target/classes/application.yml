@@ -1,16 +1,14 @@
-server: 
-  port: 8084
+server:
+  port: 8081
 
 spring:
   application:
-    name: ms-mascotas
-
+    name: ms-users
   datasource:
     url: jdbc:postgresql://aws-1-sa-east-1.pooler.supabase.com:5432/postgres
-    username: postgres.cacmtfqbubavcjqdfokl
+    username: postgres.tfglbsxvqtshorsvxrto
     password: petoneDB2026
     driver-class-name: org.postgresql.Driver
-
   jpa:
     hibernate:
       ddl-auto: update
